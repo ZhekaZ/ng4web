@@ -1,0 +1,7 @@
+.nav {
+  &-item {
+    &.active {
+      background: darken(#f8f9fa, 10%);
+    }
+  }
+}

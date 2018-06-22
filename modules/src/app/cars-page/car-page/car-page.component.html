@@ -1,0 +1,17 @@
+<h2>Info about car {{ id }}</h2>
+<h3>{{ name }}</h3>
+
+<hr>
+
+<ul>
+  <li>Car id: {{ id }}</li>
+  <li>Car name: {{ name }}</li>
+  <li>Car year: {{ year }}</li>
+  <li>Car color: {{ color }}</li>
+  <li>{{ hash }}</li>
+</ul>
+
+<hr>
+
+<!--<h4><a [routerLink]="['/cars', 8, 'Mazda']">Go to mazda</a></h4>-->
+<button (click)="openMazdaPage()" class="btn btn-link">Go to mazda</button>
